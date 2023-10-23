@@ -6,16 +6,8 @@ import { DashboardComponent } from './dashboard.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 
-
 @NgModule({
-  declarations: [
-    DashboardComponent
-  ],
-  imports: [
-    CommonModule,
-    DashboardRoutingModule,
-    MatCardModule,
-    MatIconModule
-  ]
+  declarations: [DashboardComponent],
+  imports: [CommonModule, DashboardRoutingModule, MatCardModule, MatIconModule],
 })
-export class DashboardModule { }
+export class DashboardModule {}
